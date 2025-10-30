@@ -8,7 +8,7 @@ const Sidebar = () => {
 
   return (
     <aside
-      className={`w-60 fixed top-[104px] bottom-0 p-3 overflow-auto custom-scrollbar`}
+      className={`w-60 fixed top-[73px] bottom-0 p-3 overflow-auto custom-scrollbar`}
     >
       <ul className={`pb-4 flex flex-col gap-y-2 border-b border-b-black/10`}>
         {mainMenuItems.map((item, i) => (
