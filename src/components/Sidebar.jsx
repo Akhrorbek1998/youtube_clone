@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ChevronRight } from "lucide-react";
 
 const Sidebar = () => {
-  const [activePage, setActivePage] = useState("/subscriptions");
+  const [activePage, setActivePage] = useState("/");
 
   return (
     <aside

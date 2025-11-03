@@ -8,7 +8,7 @@ import siteLogo from "../assets/images/site-logo.svg";
 
 const Header = () => {
   return (
-    <header className={"py-4 px-8 flex items-center justify-between"}>
+    <header className={"w-full bg-white  py-4 px-8 flex items-center justify-between fixed z-50 top-0 "}>
       <div className={`flex items-center justify-between`}>
         {/* Menu icons */}
         <Menu

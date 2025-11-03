@@ -4,7 +4,7 @@ import { Home } from "./pages";
 
 const App = () => {
   return (
-    <div>
+    <div className={`pt-[73.6px]`}>
       <Header />
       <div className="flex">
         <Sidebar />

@@ -44,3 +44,79 @@ export const subscriptions = [
   { id: 5, name: "Emma Hanson", avatar: img5, path: "/emma-hanson" },
   { id: 6, name: "Leah Berry", avatar: img6, path: "/leah-berry" },
 ];
+
+export const categories = [
+    'All', 'Music', 'Jams', 'Now on air', 'Video games',
+    'Sitcoms', 'Sketch show', 'Football', 'Recently published',
+    'Viewed', 'New for you'
+  ];
+
+export const videos = [
+    {
+      id: 1,
+      thumbnail: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&h=450&fit=crop',
+      title: "Endi dadam bo'ydoq (o'zbek kino) | Andy give it to you (Uzbek cinema)",
+      channelName: 'navo.tv',
+      channelAvatar: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=100&h=100&fit=crop',
+      verified: true,
+      views: '12 million views',
+      uploadTime: '2 years ago',
+      duration: '1:26:43'
+    },
+    {
+      id: 2,
+      thumbnail: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=450&fit=crop',
+      title: "Avaz Okhun - Uta emon hazillar | Avaz Oxun - O'ta yomon hazillar",
+      channelName: 'YangiKulgu Official',
+      channelAvatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop',
+      verified: true,
+      views: '3.7 million views',
+      uploadTime: '5 months ago',
+      duration: '20:12'
+    },
+    {
+      id: 3,
+      thumbnail: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&h=450&fit=crop',
+      title: "🔴 France vs Argentina | The Final That Stopped Our Hearts",
+      channelName: 'Cuồng Thể Thao',
+      channelAvatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop',
+      verified: true,
+      views: 'Viewers: 517',
+      uploadTime: '',
+      duration: '17:30',
+      badge: 'ON AIR'
+    },
+    {
+      id: 4,
+      thumbnail: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&h=450&fit=crop',
+      title: "FULL MATCH - Real Madrid 3-1 Barcelona | 2014/2015 El Clásico",
+      channelName: 'LaLiga',
+      channelAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop',
+      verified: true,
+      views: '8.2 million views',
+      uploadTime: '3 years ago',
+      duration: '1:37:34'
+    },
+    {
+      id: 5,
+      thumbnail: 'https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?w=800&h=450&fit=crop',
+      title: "GIYBATCHI - Jam | Uzbek humor show",
+      channelName: 'Jam',
+      channelAvatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop',
+      verified: false,
+      views: '2.1 million views',
+      uploadTime: '1 month ago',
+      duration: '15:22'
+    },
+    {
+      id: 6,
+      thumbnail: 'https://images.unsplash.com/photo-1511497584788-876760111969?w=800&h=450&fit=crop',
+      title: "AMAZONKA MAXLUQLARI - Documentary film",
+      channelName: 'National Geographic Uzbekistan',
+      channelAvatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop',
+      verified: true,
+      views: '954K views',
+      uploadTime: '2 weeks ago',
+      duration: '15:44'
+    }
+  ];
