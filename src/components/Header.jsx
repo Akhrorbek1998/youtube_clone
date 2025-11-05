@@ -9,7 +9,7 @@ import siteLogo from "../assets/images/site-logo.svg";
 import Searchbar from "./Searchbar.jsx";
 import {useEffect, useState} from "react";
 
-const Header = () => {
+const Header = ({setIsOpenSidebar}) => {
   const [isOpenSearchbar, setIsOpenSearchbar] = useState(false)
 
   useEffect(() => {
@@ -42,6 +42,7 @@ const Header = () => {
       <div className={`flex items-center justify-between`}>
         {/* Menu icons */}
         <Menu
+          onClick={() => setIsOpenSidebar(prev => !prev)}
           className={"cursor-pointer transition-all duration-200 hover:scale-110"}
         />
         {/* Site logo */}

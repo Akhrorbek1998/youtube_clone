@@ -2,13 +2,13 @@ import {useState} from "react";
 import {categories, videos} from "../constants.jsx";
 import {CircleCheck, MoreVertical} from "lucide-react";
 
-const Home = () => {
+const Home = ({isOpenSidebar}) => {
   const [activeCategory, setActiveCategory] = useState("All");
 
   return (
-    <div className="ms-60 px-6 py-3">
+    <div className={`${isOpenSidebar ? "ms-60 px-6 py-3" : "ms-6 py-6"} `}>
       {/*CATEGORIES*/}
-      <div className="w-full flex gap-2 fixed top-[73.6px] py-3 z-20 bg-white">
+      <div className="w-full flex gap-2 fixed top-[73.6px] px-3 py-3 z-20 bg-white">
         {categories.map((category, index) => (
           <button
             className={`px-3 py-1 rounded-md font-semibold ${activeCategory === category ? "bg-black text-white" : "bg-black/5"}`}
