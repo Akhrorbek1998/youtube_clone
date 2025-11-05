@@ -22,7 +22,7 @@ const Home = () => {
       <div className="grid grid-cols-3 gap-x-4 gap-y-6 mt-8">
         {videos.map((video) => (
           <div className={`relative p-3 rounded-xl cursor-pointer transition-all duration-300 ease-in hover:bg-neutral-200`} key={video.id}>
-            <img className={`mb-3 rounded-xl`} src={video.thumbnail} alt={video.title}/>
+            <img className={`mb-3 rounded-xl`} src={video.thumbnail} alt={video.title} height={225}/>
             <div className={`flex gap-2.5 items-start`}>
               <img className={`w-9 h-9 rounded-full`} src={video.channelAvatar} alt={video.channelName}/>
               <time className={`bg-black bg-opacity-50 absolute right-5 top-48 px-1 rounded-md text-white leading-normal`}>{video.duration}</time>
